@@ -1,0 +1,145 @@
+body {
+    background-color: #F2F2F2;
+    font-family: sans-serif;
+}
+
+/* Calculator Styling */
+.calculator {
+    width: 335px;
+    background-color: #2F495A;
+    margin: 100px auto;
+    padding: 10px 20px 50px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px 0 #D1D1D1;
+}
+
+.title {
+    text-align: center;
+    color: #eee;
+    font-weight: normal;
+}
+
+.number {
+    width: 300px;
+    margin: 5px;
+    border: none;
+    font-size: 16pt;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.operation {
+    font-size: 16pt;
+    border-style: none;
+    width: 215px;
+    margin: 5px 50px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    background-color: #EC5159;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 5px;
+    margin: 5px 100px;
+    padding: 10px 20px;
+    color: #eee;
+    font-size: 15pt;
+    border-bottom: 4px solid #BF3D3D;
+}
+
+/* Hide arrow from input */
+
+/* For Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+/* Welcome Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 120px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+    width: 90%;
+    max-width: 500px;
+}
+
+.input-section {
+    margin: 15px 0;
+}
+
+label {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #555;
+}
+
+input[type="date"] {
+    width: 70%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="date"]:focus {
+    border-color: #007BFF;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.submit {
+    display: block;
+    margin-top: 20px;
+    padding: 12px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+.output-section {
+    margin: 15px 0;
+}
+
+.output-section h1 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
