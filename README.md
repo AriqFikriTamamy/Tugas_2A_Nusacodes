@@ -1,2 +1,2 @@
-# Tugas_2_Nusacodes
-Membuat Form menggunakan PHP
+# Tugas_2A_Nusacodes
+Membuat Kalkulator menggunakan PHP
